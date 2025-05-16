@@ -1,5 +1,6 @@
 # Conditional probability
 
+
 Is used in:
 - Finance
 - Insurance
