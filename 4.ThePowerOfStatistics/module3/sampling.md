@@ -38,3 +38,52 @@ certain groups of people are less likely to provide responses
 - <b>Snowball sampling</b>: Researchers recruit initial people to be in the study and then ask them  to recruit other people to
 participate. Sampling bias. People tend to recruit people with similar characteristics.
 - <b>Purposive sampling</b>: Researchers select participants based on the purpose of their study.
+
+---
+## How sampling affects your data?
+
+### Statistic vs parameter
+* The mean weight of a random sample of 100 penguins is a statistic
+* The mean weight of the total population of 10000 penguins is a parameter
+
+### Point estimate
+A point estimate is a single numerical value used to approximate an unknown population parameter based on sample data.
+
+### Sampling distribution
+A sampling distribution is the probability distribution of a given statistic (like the sample mean or proportion) based on all possible samples of a fixed size from a population.
+<img src="sample_distribution.png" alt="Sample distribution">
+As you increase the sample size the mean weight of the sample data will get closer to the mean weight of the population.
+This is based on <b> central limit theorem.</b>
+
+### Standard error
+The standard error is the standard deviation of a sampling distribution of a statistic, most commonly the sample mean.
+- Larger standard error = Sample means are more spread out
+- Smaller standard error = Sample means are closer togheter
+
+<b> Standard error of the mean:</b>
+S/sqrt(n)
+
+where:
+- s: the sample standard deviation
+- n: the sample size
+
+As sample size gets larger the standard error gets smaller.
+
+### The central limit theorem
+
+The sampling distribution of the mean approaches a normal distribution as the sample size increases.
+
+---
+
+### Population proportion
+The percentage of individuals or elements in a population that share a certain characteristic.
+
+<b>Standard error of the proportion</b>:
+
+$$
+SE = \sqrt{ \frac{p(1 - p)}{n} }
+$$
+
+p = sample proportion 
+
+Data professionals use the standard deviation of the sample means to measure this variability. In statistics, the standard deviation of a sample statistic is called the standard error.
